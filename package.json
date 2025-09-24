@@ -1,0 +1,38 @@
+{
+  "name": "live-polling-system",
+  "version": "1.0.0",
+  "description": "Real-time polling system with teacher and student interfaces - Deployed by prabhatzz",
+  "main": "backend/server.js",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd backend && npm run dev",
+    "client": "cd frontend && npm start",
+    "build": "cd frontend && npm run build",
+    "start": "cd backend && npm start",
+    "install-all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "deploy": "npm run build && npm start"
+  },
+  "keywords": [
+    "polling",
+    "realtime",
+    "education",
+    "socket.io",
+    "react",
+    "express",
+    "prabhatzz"
+  ],
+  "author": "Prabhat Gupta (prabhatzz)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/prabhatzz/live-polling-system.git"
+  },
+  "homepage": "https://prabhatzz.github.io/live-polling-system",
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  }
+}
