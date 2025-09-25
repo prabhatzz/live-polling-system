@@ -9,7 +9,11 @@ A real-time interactive polling system designed for educational environments wit
 
 ## 🚀 Live Demo
 
-**🌐 [View Live Application](https://prabhatzz.github.io/live-polling-system)**
+**🌐 [View Live Application](https://live-polling-system-6qgb.vercel.app/)**
+
+**🔗 Backend API**: [https://live-polling-system-production-6105.up.railway.app](https://live-polling-system-production-6105.up.railway.app)  
+**🩺 Health Check**: [https://live-polling-system-production-6105.up.railway.app/health](https://live-polling-system-production-6105.up.railway.app/health)
+
 
 ## 📋 Features
 
@@ -67,13 +71,8 @@ npm run dev
 ## 🌐 Deployment
 
 This project is deployed using:
-- **Frontend**: GitHub Pages
+- **Frontend**: Vercel
 - **Backend**: Railway
-
-### Deployment URLs
-- **Live App**: https://prabhatzz.github.io/live-polling-system
-- **Backend API**: https://live-polling-backend.railway.app
-- **Health Check**: https://live-polling-backend.railway.app/health
 
 ## �� How to Use
 
@@ -196,7 +195,4 @@ MIT License - see LICENSE file for details.
 ---
 
 ⭐ **Star this repository if helpful!**
-## Live Demo
-Frontend: [https://live-polling-system-6qgb.vercel.app/](https://live-polling-system-6qgb.vercel.app/)
-Backend Health: [https://live-polling-system-production-6105.up.railway.app/health](https://live-polling-system-production-6105.up.railway.app/health)
 
