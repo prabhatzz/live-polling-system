@@ -343,11 +343,20 @@ function getPollResults(poll) {
 // Health check endpoint
 app.get('/health', (req, res) => {
   res.json({ 
-    status: 'OK', 
+    status: 'OK Good', 
     timestamp: new Date().toISOString(),
     activeStudents: students.size,
     currentPoll: currentPoll ? currentPoll.id : null,
     author: 'prabhatzz'
+  });
+});
+// simple root route for quick verification
+app.get('/', (req, res) => {
+  res.json({
+    status: 'Good Going',
+    message: 'Live Polling Backend — use /health or the frontend for UI.',
+    uptime: process.uptime(),
+    timestamp: new Date().toISOString()
   });
 });
 
