@@ -349,7 +349,11 @@ app.get('/health', (req, res) => {
     currentPoll: currentPoll ? currentPoll.id : null,
     author: 'prabhatzz'
   });
-  res.send('Live Polling Backend — running. Try /health for status.');
+});
+// simple root route for quick verification
+app.get('/', (req, res) => {
+  res.json({ status: 'ok',
+             message: 'Live Polling Backend — use /health or the frontend for UI.' });
 });
 
 const PORT = process.env.PORT || 8080;
