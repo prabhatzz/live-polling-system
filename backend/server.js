@@ -349,6 +349,7 @@ app.get('/health', (req, res) => {
     currentPoll: currentPoll ? currentPoll.id : null,
     author: 'prabhatzz'
   });
+  res.send('Live Polling Backend — running. Try /health for status.');
 });
 
 const PORT = process.env.PORT || 8080;
