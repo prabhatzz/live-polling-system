@@ -190,7 +190,7 @@ MIT License - see LICENSE file for details.
 ## 📞 Support
 
 - Create GitHub issue
-- Contact: prabhatzz@example.com
+- Contact: imprabhatzz123@gmail.com
 
 ---
 
